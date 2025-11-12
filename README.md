@@ -7,8 +7,9 @@ I re-run the main IV result and a low-income robustness check.
 ## What’s here
 - `my_report/` — my write-up (PDF)
 - `my_results` — CSV & figures - regression outputs
-- `my_codes` — my scripts(IV+robustness)
-- `data/` — empty; see below where to get original data
+- `my_codes` — my scripts (IV+robustness)
+- `data/` — empty; see below to get original data
+-  `article/` — original article file (PDF)
 
 ## Environment
 ```bash
