@@ -8,7 +8,7 @@ I re-run the main IV result and a low-income robustness check.
 - `my_report/` — my write-up (PDF)
 - `my_results` — CSV & figures - regression outputs
 - `my_codes` — my scripts (IV+robustness)
-- `data/` — empty; please refer to the AEA (American Economic Association) website to downlaod article's replication package and data. https://www.aeaweb.org/articles?id=10.1257/app.20210074
+- `data/` — empty; please refer to the AEA (American Economic Association) website to download article's replication package and data. https://www.aeaweb.org/articles?id=10.1257/app.20210074
 -  `article/` — original article file (PDF)
 
 ## Environment
@@ -23,3 +23,4 @@ pip install -r requirements.txt
 my_replication_result_table2_col6.csv (main IV replication)
 my_change_in_sample_result.csv (robustness check, only considered low-income cities)
 my_replication_figure_scatter_weighted_corrected.pdf
+
