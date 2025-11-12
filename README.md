@@ -17,3 +17,9 @@ python -m venv .venv
 # Windows PowerShell:
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+
+
+## Results
+my_results/main_iv_results.csv
+my_results/robustness_my_change_low_income_cities.csv
+my_results/scatter_weighted.pdf
