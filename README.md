@@ -1,5 +1,5 @@
 
-# Income Segregation & the Knowledge Economy — Replication (Berkes & Gaetani, 2023)
+# Income Segregation & the Knowledge Economy - Replication (Berkes & Gaetani, 2023)
 
 This is my ECON 836 - Applied Econometrics replication of **“Income Segregation and the Rise of the Knowledge Economy” (Berkes & Gaetani, 2023)**.  
 I re-run the main IV result and a low-income robustness check.
