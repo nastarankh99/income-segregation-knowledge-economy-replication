@@ -1,0 +1,23 @@
+                   IV-2SLS Estimation Summary                   ,,,,,,,,,,
+Dep. Variable:   ,segregation_diff,  R-squared:         ,0.3528,,,,,,,
+Estimator:       ,IV-2SLS         ,  Adj. R-squared:    ,0.3474,,,,,,,
+No. Observations:,722,  F-statistic:       ,90.19,,,,,,,IV coefficient on patent growth: 1.3049
+Date:            ,Wed, Apr 23 2025,  P-value (F-stat)   ,0,,,,,,Effect in Gini points: 1.3049 × 0.499 = 0.6512
+Time:            ,8:14:18,  Distribution:      ,chi2(6),,,,,,,Effect in SD units: 0.6512 ÷ 2.12 = 0.3071
+Cov. Estimator:  ,clustered       ,                     ,       ,,,,,,,
+                 ,                ,                     ,       ,,,,,,,
+                         Parameter Estimates                          ,,,,,,,,,,
+                ,Parameter,Std. Err., T-stat,P-value,Lower CI,Upper CI,,,,
+Intercept       ,-61.64,14.089,-4.3751,0,-89.254,-34.027,,,,
+college_share_90,-5.9089,5.7204,-1.0329,0.3016,-17.121,5.3029,,,,
+log_ncts        ,-1.6576,1.0835,-1.5299,0.126,-3.7812,0.466,,,,
+log_nhh         ,1.7983,1.1502,1.5635,0.1179,-0.456,4.0527,,,,
+log_income      ,4.8685,1.6159,3.013,0.0026,1.7015,8.0355,,,,
+d_tradeusch_pw  ,0.0429,0.1011,0.4241,0.6715,-0.1553,0.2411,,,,
+pat_growth      ,1.3049,0.6067,2.1507,0.0315,0.1157,2.4941,,,,
+,,,,,,,,,,
+Endogenous: pat_growth,,,,,,,,,,
+Instruments: pat_growth_instr,,,,,,,,,,
+Clustered Covariance (One-Way),,,,,,,,,,
+Debiased: False,,,,,,,,,,
+Num Clusters: 48,,,,,,,,,,
