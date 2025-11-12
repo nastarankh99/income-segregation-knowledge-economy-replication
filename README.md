@@ -20,6 +20,6 @@ pip install -r requirements.txt
 
 
 ## Results
-my_results/main_iv_results.csv
-my_results/robustness_my_change_low_income_cities.csv
-my_results/scatter_weighted.pdf
+my_replication_result_table2_col6.csv (main IV replication)
+my_change_in_sample_result.csv (robustness check, only considered low-income cities)
+my_replication_figure_scatter_weighted_corrected.pdf
