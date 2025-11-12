@@ -11,13 +11,16 @@ I re-run the main IV result and a low-income robustness check.
 - `data/` — empty; please refer to the AEA (American Economic Association) website to download article's replication package and data. https://www.aeaweb.org/articles?id=10.1257/app.20210074
 -  `article/` — original article file (PDF)
 
-## Environment
+## Environment & Reproduction
 ```bash
 python -m venv .venv
 # Windows PowerShell:
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-
+python my_codes/main_regression replication.py
+python my_codes/my change in sample.py
+python my_codes/scatters replication.py
+```
 
 ## Results
 my_replication_result_table2_col6.csv (main IV replication)
